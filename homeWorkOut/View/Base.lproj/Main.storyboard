@@ -29,6 +29,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="uxo-lU-u9g" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="7BY-fb-j8q">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -40,11 +41,11 @@
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="129.91071428571428"/>
         </scene>
-        <!--Item-->
+        <!--HOME-->
         <scene sceneID="ygS-1l-dVf">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0eU-GK-qJy" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="6fq-pK-OYT"/>
+                    <tabBarItem key="tabBarItem" title="HOME" image="house" catalog="system" id="6fq-pK-OYT"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="BYR-Ar-8fA">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -60,4 +61,7 @@
             <point key="canvasLocation" x="1047.8260869565217" y="129.91071428571428"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="house" catalog="system" width="128" height="110"/>
+    </resources>
 </document>
