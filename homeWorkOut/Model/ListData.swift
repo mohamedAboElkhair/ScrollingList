@@ -6,4 +6,11 @@
 //  Copyright © 2020 Mohamed AbouElkhair. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+
+struct LisData {
+    var titel : String
+    var image  : UIImage
+    var url : String
+}
